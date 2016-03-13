@@ -4,6 +4,11 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+button:focus {
+  outline: none;
+}
+
 .container {
   position: absolute;
   top: 0;
@@ -50,11 +55,11 @@ body {
   border-radius: 3px;
   background-color: #eee;
   font-size: 16px;
-  border: none;
   max-width: 400px;
   width: 100%;
   margin-bottom: 10px;
   box-sizing: border-box;
+  border: 1px solid #eee;
 }
 
 .btn-blue {
