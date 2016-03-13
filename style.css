@@ -1,0 +1,52 @@
+
+
+canvas {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.label-header {
+  color: #52575E;
+}
+
+.label-subheader {
+  color: #C4CAD2;
+}
+
+.input-gray {
+  color: #52575E;
+  padding: 10px;
+  font-size: 16px;
+  background: #EBEFF4;
+  border-radius: 3px;
+  border: none;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.input-gray::-webkit-input-placeholder {
+  color: #C4CAD2;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-md {
+  font-size: 14px;
+  padding: 10px 22px;
+  font-weight: bold;
+}
+
+.btn-blue {
+  background-image: linear-gradient(-180deg, #50C2FF 0%, #2B8DFF 100%);
+  border-radius: 3px;
+  color: white;
+  border: none;
+}
+
+.btn-blue:hover {
+  background-image: linear-gradient(-180deg, #52bef7 0%, #2B8DFF 100%);
+}
