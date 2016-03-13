@@ -29,12 +29,16 @@
                               <div class="form-group ml-field-email ml-validate-required ml-validate-email">
                                   <input type="email" name="fields[email]" class="input-gray" placeholder="Email Address" value="">
                                   <input type="hidden" name="ml-submit" value="1" />
-                                  <button type="submit" class="btn btn-md btn-blue">
-                                      Subscribe
+                                  <button type="submit" class="btn btn-md btn-blue primary">
+                                    <div>Subscribe</div>
                                   </button>
-                                  <span disabled="disabled" style="display: none;" type="button" class="loading gradient-on">
-                                      <img src="//static.mailerlite.com/images/rolling.gif" width="20" height="20" style="width: 20px; height: 20px;">
-                                  </span>
+                                  <button disabled="disabled" style="display: none;" type="button" class="btn btn-md btn-blue loading gradient-on">
+                                      <div class="spinner">
+                                        <div class="bounce1"></div>
+                                        <div class="bounce2"></div>
+                                        <div class="bounce3"></div>
+                                      </div>
+                                  </button>
                               </div>
                       </div>
                   </form>
