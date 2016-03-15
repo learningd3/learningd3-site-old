@@ -30,9 +30,9 @@ button:focus {
 .label-header {
   font-size: 25px;
   font-weight: 400;
-  margin-bottom: 0px;
-  line-height: 1;
   margin-bottom: 0;
+  line-height: 1;
+  margin-top: 0;
 }
 
 .label-subheader {
