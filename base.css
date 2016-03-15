@@ -30,6 +30,8 @@ button:focus {
 .label-header {
   font-size: 25px;
   font-weight: 400;
+  margin-bottom: 0px;
+  line-height: 1;
 }
 
 .label-subheader {
@@ -39,7 +41,7 @@ button:focus {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   line-height: 1.4;
 }
 
